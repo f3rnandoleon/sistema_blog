@@ -1,0 +1,95 @@
+/* Estilos generales */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header, main, footer {
+    padding: 20px;
+  }
+  
+  header {
+    display: flex;
+    background-color: #333;
+    color: #fff;
+    padding-left:  80px;
+    
+  }
+  .logo {
+    width: 12%;
+  }
+
+  
+  nav a {
+    color: #fff;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    display: flex;
+    margin-left: 80px;
+    
+  }
+  
+  article {
+    flex: 2;
+    margin-right: 20px;
+  }
+  
+  aside {
+    flex: 1;
+    border-left: solid rgb(225, 225, 225) 1px;
+    padding: 40px 0 0 40px;
+  }
+  
+  .ad {
+    margin-bottom: 20px;
+  }
+  
+  .ad img {
+    width: 100%;
+    height: auto;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  /* Estilos específicos para el contenido de los blogs */
+  article h4 {
+    font-size: 1.6em;
+    line-height: 1.15em;
+    margin: 2em auto 0.8em;
+    letter-spacing: -.015em;
+  }
+  article h3 {
+    font-size: 2.5em;
+    line-height: 1.05em;
+    letter-spacing: -.02em;
+    margin: 1.8em auto 0.65em;
+}
+  article p {
+
+    margin: 1.27em auto;
+    font-size: 1.2em;
+    line-height: 1.4em;
+  }
+  /* Estilos específicos para los anuncios publicitarios */
+  .ad p {
+    font-size: 14px;
+  }
+  .blog-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
