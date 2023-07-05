@@ -46,6 +46,8 @@ body {
     flex: 1;
     border-left: solid rgb(225, 225, 225) 1px;
     padding: 40px 0 0 40px;
+    font-style: italic;
+    color: black;
   }
   
   .ad {
@@ -77,9 +79,14 @@ body {
     letter-spacing: -.02em;
     margin: 1.8em auto 0.65em;
 }
-  article p {
+  article h5{
+    font-size: 1em;
+    line-height: 1.15em;
+    letter-spacing: -.02em;
+    margin: 1.8em auto 0.65em;
+}
+  article p,ul,ol {
 
-    margin: 1.27em auto;
     font-size: 1.2em;
     line-height: 1.4em;
   }
@@ -93,3 +100,36 @@ body {
     margin-bottom: 15px;
   }
   
+  
+  /* Media queries para hacer la página responsive */
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .logo {
+      margin-bottom: 10px;
+    }
+  
+    nav {
+      margin-top: 10px;
+    }
+  
+    main {
+      flex-direction: column;
+      margin: 0;
+      padding: 0 35px 0 35px;
+    }
+  
+    article {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    aside {
+      margin-bottom: 20px;
+      padding: 0;
+      border-left: transparent 0px;
+    }
+  }
