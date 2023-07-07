@@ -49,6 +49,12 @@ body {
     font-style: italic;
     color: black;
   }
+  aside h2{
+    text-align: center;
+    color:rgb(155, 49, 35);
+    font-style: italic;
+    text-decoration:underline white;
+  }
   
   .ad {
     margin-bottom: 20px;
